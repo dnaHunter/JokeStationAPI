@@ -11,7 +11,7 @@ export function postSavedController(req, res) {
   if (!body.setup || !body.category || !body.delivery) {
     res
       .status(400)
-      .json({ message: "Joke body needs a setup, a catagory and a delivery" });
+      .json({ message: "Joke body needs a setup, a category and a delivery" });
   }
 
   const newSaved = postSavedModel(body);

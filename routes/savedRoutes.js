@@ -7,6 +7,4 @@ const router = express.Router();
 router.get("/", getSavedController);
 router.post("/", postSavedController);
 
-
-
 export default router;
