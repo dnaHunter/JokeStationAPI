@@ -8,10 +8,11 @@ export function getSavedController(req, res) {
 export function postSavedController(req, res) {
   const body = req.body;
 
-  if (!body.setup || !body.catagory || !body.delivery) {
+  console.log(body);
+  if (!body.setup || !body.category || !body.delivery) {
     res
       .status(400)
-      .json({ message: "Joke body needs a setup, a catagory and a delivery" });
+      .json({ message: "Joke body needs a setup, a category and a delivery" });
   }
 
   const newSaved = postSavedModel(body);
