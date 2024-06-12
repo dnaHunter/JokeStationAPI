@@ -11,6 +11,8 @@ const app = express();
 
 app.use(cors({ origin: FRONTEND_URL }));
 
+app.use(express.json());
+
 app.use("/saved", savedRoutes);
 
 app.listen(PORT, () => {

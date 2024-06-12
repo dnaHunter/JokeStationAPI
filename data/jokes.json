@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "setup": "test",
+    "catagory": "Misc",
+    "delivery": "ing",
+    "id": "4e816398-4c4d-444f-a383-d9c16208f436"
+  },
+  {
+    "setup": "joke",
+    "catagory": "Misc",
+    "delivery": "plz laugh",
+    "id": "0906d7e0-ae13-4cc1-a710-219caaf25cdd"
+  }
+]
