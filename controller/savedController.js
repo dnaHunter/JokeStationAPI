@@ -8,7 +8,6 @@ export function getSavedController(req, res) {
 export function postSavedController(req, res) {
   const body = req.body;
 
-  console.log(body);
   if (!body.setup || !body.category || !body.delivery) {
     res
       .status(400)
